@@ -1,3 +1,6 @@
+// always use ===
+// eqal comparison doesn't work for non-ptimitive
+
 const first = [];
 const second = first;
 if(first === second){
@@ -9,4 +12,4 @@ else{
 
 // type coercion
 // type conversion
-// type 
+// type casting
